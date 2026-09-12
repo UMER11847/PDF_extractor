@@ -1,5 +1,16 @@
+# Virtual environment
 .venv/
+
+# Python
 __pycache__/
 *.pyc
+
+# Environment variables / secrets
 .env
+
+# Local application data
 data/
+datasets.db
+
+# Streamlit
+.streamlit/secrets.toml
